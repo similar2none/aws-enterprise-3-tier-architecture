@@ -8,6 +8,8 @@ This project implements an enterprise-style AWS environment with separate public
 
 ## Architecture
 
+![CM Enterprise AWS 3-Tier Architecture](docs/architecture-diagram%20(1).png)
+
 **Region:** US East (Ohio) — `us-east-2`
 
 The environment includes a custom `10.10.0.0/16` VPC, six subnets across two Availability Zones, an Internet Gateway, NAT Gateway, dedicated route tables, an internet-facing Application Load Balancer, two private Amazon Linux EC2 application servers, a private Amazon RDS MySQL database, AWS Secrets Manager, IAM, Systems Manager, and tier-specific security groups.
